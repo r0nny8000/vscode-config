@@ -1,0 +1,53 @@
+{
+    "github.copilot.enable": {
+        "markdown": true,
+        "plaintext": true
+    },
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.markdown-language-features",
+    "editor.minimap.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "phase",
+    "files.autoSave": "onFocusChange",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.suggest.enabled": true,
+    "git.confirmSync": false,
+    "workbench.activityBar.location": "top",
+    "trailing-spaces.trimOnSave": true,
+    "azureFunctions.showProjectWarning": false,
+    "notebook.output.scrolling": true,
+    "files.associations": {
+        "*.jinja2": "jinja",
+        "*.html.jinja2": "jinja",
+        "*.html.j2": "jinja"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.analysis.autoFormatStrings": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            160
+        ]
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "black-formatter.args": [
+        "--line-length",
+        "160"
+    ],
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontSize": 14,
+    "markdown.extension.list.indentationSize": "inherit",
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+    "git.autofetch": true
+}
