@@ -41,6 +41,10 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
+    "[markdown]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
     "black-formatter.args": [
         "--line-length",
         "160"
@@ -48,6 +52,5 @@
     "explorer.confirmDelete": false,
     "terminal.integrated.fontSize": 14,
     "markdown.extension.list.indentationSize": "inherit",
-    "markdown.extension.tableFormatter.normalizeIndentation": true,
-    "git.autofetch": true
+    "git.autofetch": true,
 }
