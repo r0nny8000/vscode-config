@@ -3,7 +3,6 @@
         "markdown": true,
         "plaintext": true
     },
-    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "vscode.markdown-language-features",
@@ -53,4 +52,5 @@
     "terminal.integrated.fontSize": 14,
     "markdown.extension.list.indentationSize": "inherit",
     "git.autofetch": true,
+    "editor.fontFamily": "'SauceCodePro Nerd Font Mono', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
 }
