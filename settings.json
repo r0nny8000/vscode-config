@@ -5,13 +5,13 @@
     },
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "vscode.markdown-language-features",
     "editor.minimap.enabled": false,
     "editor.accessibilitySupport": "off",
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "phase",
     "files.autoSave": "onFocusChange",
     "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.suggest.enabled": true,
     "git.confirmSync": false,
@@ -41,9 +41,9 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[markdown]": {
-        "editor.tabSize": 4,
+        "editor.tabSize": 2,
         "editor.insertSpaces": true,
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
     "black-formatter.args": [
         "--line-length",
