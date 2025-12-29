@@ -9,20 +9,27 @@
     "editor.accessibilitySupport": "off",
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "phase",
-    "files.autoSave": "onFocusChange",
+    "editor.defaultFormatter": "prettier.prettier-vscode",
+    "editor.fontFamily": "'SauceCodePro Nerd Font Mono', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.suggest.enabled": true,
     "git.confirmSync": false,
+    "git.autofetch": true,
     "workbench.activityBar.location": "top",
+    "chat.viewSessions.orientation": "stacked",
     "trailing-spaces.trimOnSave": true,
     "azureFunctions.showProjectWarning": false,
     "notebook.output.scrolling": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.suggest.enabled": true,
+    "terminal.integrated.fontSize": 14,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "onFocusChange",
     "files.associations": {
         "*.jinja2": "jinja",
         "*.html.jinja2": "jinja",
-        "*.html.j2": "jinja"
+        "*.html.j2": "jinja",
+        "*.md": "markdown",
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -37,21 +44,19 @@
             160
         ]
     },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[markdown]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-    },
     "black-formatter.args": [
         "--line-length",
         "160"
     ],
-    "explorer.confirmDelete": false,
-    "terminal.integrated.fontSize": 14,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
     "markdown.extension.list.indentationSize": "inherit",
-    "git.autofetch": true,
-    "editor.fontFamily": "'SauceCodePro Nerd Font Mono', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "[markdown]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
 }
