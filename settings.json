@@ -10,7 +10,7 @@
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "phase",
     "editor.defaultFormatter": "prettier.prettier-vscode",
-    "editor.fontFamily": "'SauceCodePro Nerd Font Mono', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'0xProto Nerd Font Mono', 'SauceCodePro Nerd Font Mono', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
     "git.confirmSync": false,
