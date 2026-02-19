@@ -60,5 +60,12 @@
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true
+    },
+    "chat.tools.terminal.autoApprove": {
+        "uv": true,
+        "git add": true,
+        "git commit": true,
+        "git push": true,
+        "ls": true
     }
 }
