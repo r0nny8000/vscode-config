@@ -17,6 +17,13 @@
     "git.autofetch": true,
     "workbench.activityBar.location": "top",
     "chat.tools.autoApprove": true,
+    "chat.tools.terminal.autoApprove": {
+        "uv": true,
+        "git add": true,
+        "git commit": true,
+        "git push": true,
+        "ls": true
+    },
     "chat.agent.maxAutoEdits": 100,
     "chat.viewSessions.orientation": "stacked",
     "trailing-spaces.trimOnSave": true,
@@ -60,12 +67,5 @@
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true
-    },
-    "chat.tools.terminal.autoApprove": {
-        "uv": true,
-        "git add": true,
-        "git commit": true,
-        "git push": true,
-        "ls": true
     }
 }
