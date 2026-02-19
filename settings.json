@@ -16,6 +16,8 @@
     "git.confirmSync": false,
     "git.autofetch": true,
     "workbench.activityBar.location": "top",
+    "chat.tools.autoApprove": true,
+    "chat.agent.maxAutoEdits": 100,
     "chat.viewSessions.orientation": "stacked",
     "trailing-spaces.trimOnSave": true,
     "azureFunctions.showProjectWarning": false,
@@ -58,5 +60,5 @@
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true
-    },
+    }
 }
